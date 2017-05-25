@@ -7,7 +7,7 @@ This is a demo application used in my AgileJKL presentation on 29th March 2017.
 ECS_CLUSTER_NAME="ecs-demo"
 AWS_PROFILE_NAME="gofore-crew"
 
-ecs-cli configure --region eu-west-1 --profile ${AWS_PROFILE_NAME} --cluster ecs-demo
+ecs-cli configure --region eu-west-1 --profile ${AWS_PROFILE_NAME} --cluster ${ECS_CLUSTER_NAME}
 ```
 
 ```bash
