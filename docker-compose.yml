@@ -1,0 +1,7 @@
+version: '2'
+services:
+  agilejkl-node:
+    image: lauriku/agilejkl-node:latest
+    mem_limit: 64m
+    ports:
+      - 3000
